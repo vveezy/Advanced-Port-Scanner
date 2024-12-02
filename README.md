@@ -76,4 +76,4 @@ How to Contribute:
 -Open a pull request.
 
 📧 Contact
-For questions or feedback, feel free to reach out to me via [your-email@example.com].
+For questions or feedback, feel free to reach out to me via soufzeg99@gmail.com .
