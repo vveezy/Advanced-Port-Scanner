@@ -48,7 +48,8 @@ Scan specific ports by specifying the start and end ports:
 Custom Timeout:
 Set a custom timeout value in seconds to control how long the scanner waits for a connection before timing out:
 
-python advanced_port_scanner.py <target-ip-or-hostname> -t 1 -sp 1000 -ep 5000
+    python advanced_port_scanner.py <target-ip-or-hostname> -t 1 -sp 1000 -ep 5000
+
 🛠️ Example Usage
 # Scan default port range (1 to 65535) for the target `ad.samsclass.info`
     python advanced_port_scanner.py ad.samsclass.info
@@ -57,7 +58,8 @@ python advanced_port_scanner.py <target-ip-or-hostname> -t 1 -sp 1000 -ep 5000
     python advanced_port_scanner.py ad.samsclass.info -sp 1000 -ep 2000
 
 # Scan ports from 1 to 100 with a custom timeout of 1 second
-python advanced_port_scanner.py ad.samsclass.info -t 1 -sp 1 -ep 100
+
+    python advanced_port_scanner.py ad.samsclass.info -t 1 -sp 1 -ep 100
 
 🔒 Disclaimer
 This tool is intended for ethical hacking and penetration testing. You must have explicit permission to scan any network or system. Unauthorized scanning may be illegal and is strictly prohibited. Always use this tool responsibly.
